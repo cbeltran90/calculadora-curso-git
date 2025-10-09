@@ -1,6 +1,13 @@
 # calculadora-curso-git
 Una calculadora simple de consola desarrollada en JavaScript con cliente interactivo de uso para los trabajos prácticos del Curso de git.
 
+## INTEGRANTES
+-Beltrán, Cristian Fernando
+-
+-
+-
+
+
 ## 📋 Características
 
 - ✅ Operaciones matemáticas básicas
@@ -67,7 +74,7 @@ calculadora-curso-git/
 | Función | Estado | Descripción |
 |---------|--------|-------------|
 | `sumar(a, b)` | ✅ Implementada | Suma dos números |
-| `restar(a, b)` | ⏳ Pendiente | Resta dos números |
+| `restar(a, b)` | ✅ Implementada | Resta dos números |
 | `multiplicar(a, b)` | ⏳ Pendiente | Multiplica dos números |
 | `dividir(a, b)` | ⏳ Pendiente | Divide dos números |
 | `potencia(base, exp)` | ⏳ Pendiente | Eleva un número a una potencia |
