@@ -1,8 +1,9 @@
 # calculadora-curso-git
 Una calculadora simple de consola desarrollada en JavaScript con cliente interactivo de uso para los trabajos prácticos del Curso de git.
 
-## INTEGRANTES
--Beltrán, Cristian Fernando
+## Integrantes
+
+- Beltrán, Cristian Fernando
 -
 -
 -
