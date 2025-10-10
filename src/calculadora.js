@@ -16,7 +16,7 @@ class Calculadora {
   }
 
   potencia(base, exponente) {
-    // TODO: Implementar potencia
+    return a ** b;
   }
 
   raizCuadrada(numero) {
