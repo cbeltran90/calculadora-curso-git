@@ -4,7 +4,7 @@ Una calculadora simple de consola desarrollada en JavaScript con cliente interac
 ## Integrantes
 
 - Beltrán, Cristian Fernando
--
+- Alcaraz, Nestor Alfredo
 -
 -
 
