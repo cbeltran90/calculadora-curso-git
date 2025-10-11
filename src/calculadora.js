@@ -16,11 +16,11 @@ class Calculadora {
   }
 
   potencia(base, exponente) {
-    return a ** b;
+    return Math.pow(base, exponente);
   }
 
   raizCuadrada(numero) {
-    // TODO: Implementar raíz cuadrada
+    return Math.sqrt(numero);
   }
 }
 
