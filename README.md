@@ -6,7 +6,7 @@ Una calculadora simple de consola desarrollada en JavaScript con cliente interac
 - Beltrán, Cristian Fernando
 - Alcaraz, Nestor Alfredo
 - Luque, Eugenia Soledad
-- 
+- Donato, Pablo Bautista
 
 
 ## 📋 Características
