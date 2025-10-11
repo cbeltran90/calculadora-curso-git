@@ -12,15 +12,15 @@ class Calculadora {
   }
 
   dividir(a, b) {
-    return a / b;
+    return a/b;
   }
 
   potencia(base, exponente) {
-    return a ** b;
+    return Math.pow(base, exponente);
   }
 
   raizCuadrada(numero) {
-    // TODO: Implementar raíz cuadrada
+    return Math.sqrt(numero);
   }
 }
 
