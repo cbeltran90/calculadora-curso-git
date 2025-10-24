@@ -16,7 +16,7 @@ class Calculadora {
   }
 
   potencia(base, exponente) {
-    return a ** b;
+    
   }
 
   raizCuadrada(numero) {
