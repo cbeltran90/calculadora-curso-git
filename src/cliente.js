@@ -18,6 +18,7 @@ function mostrarMenu() {
   console.log('4. Dividir');
   console.log('5. Potencia');
   console.log('6. Raíz Cuadrada');
+  console.log('7. Porcentaje');
   console.log('0. Salir');
   console.log('=================================');
 }
@@ -64,7 +65,8 @@ function getSimboloOperacion(nombre) {
     'resta': '-',
     'multiplicación': '×',
     'división': '÷',
-    'potencia': '^'
+    'potencia': '^',
+    'porcentaje': '%'
   };
   return simbolos[nombre] || '';
 }
@@ -116,6 +118,21 @@ async function ejecutarOpcion(opcion) {
         (num) => calc.raizCuadrada(num),
         'raíz cuadrada'
       );
+      break;
+
+    case '7':
+      const a = await pedirNumero('Ingrese el primer número: ');
+      const b = await pedirNumero('Ingrese el segundo número: ');
+      const resultadoPorc = calc.porcentaje(a, b);
+
+      if (resultadoPorc === undefined) {
+        console.log('\n⚠️  La función porcentaje aún no está implementada');
+      } else if (!isFinite(resultadoPorc) || isNaN(resultadoPorc)) {
+        console.log('\n⚠️  Error: Operación inválida (división por cero o valor no válido)');
+      } else {
+        const valorFormateado = resultadoPorc.toFixed(3);
+        console.log(`\n✓ Resultado: (${a}/${b})*${100} = % ${valorFormateado}`);
+      }
       break;
     
     case '0':
