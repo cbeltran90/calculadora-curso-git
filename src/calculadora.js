@@ -22,7 +22,7 @@ class Calculadora {
   raizCuadrada(numero) {
     return Math.sqrt(numero);
   }
-  raizCuadrada(a,b) {
+  resto(a,b) {
     return a % b;
   }
 }
