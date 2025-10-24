@@ -80,3 +80,4 @@ calculadora-curso-git/
 | `dividir(a, b)` | ✅ Implementada | Divide dos números |
 | `potencia(base, exp)` | ✅ Implementada | Eleva un número a una potencia |
 | `raizCuadrada(num)` | ✅ Implementada | Calcula la raíz cuadrada |
+| `resto(a,b)` | ✅ Implementada | Calcula el resto de la division |
