@@ -84,3 +84,4 @@ calculadora-curso-git/
 | `raizCuadrada(num)` | ✅ Implementada | Calcula la raíz cuadrada |
 | `porcentaje(a, b)` | ✅ Implementada | Calcula el porcentaje de un numero respecto a otro|
 | `resto(a,b)` | ✅ Implementada | Calcula el resto de la division |
+| `logaritmo natural (a)` | ✅ Implementada | Calcula el logaritmo natural de un numero|
