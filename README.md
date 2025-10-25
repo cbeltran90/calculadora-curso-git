@@ -82,3 +82,4 @@ calculadora-curso-git/
 | `potencia(base, exp)` | ✅ Implementada | Eleva un número a una potencia |
 | `raizCuadrada(num)` | ✅ Implementada | Calcula la raíz cuadrada |
 | `porcentaje(a, b)` | ✅ Implementada | Calcula el porcentaje de un numero respecto a otro|
+| `resto(a,b)` | ✅ Implementada | Calcula el resto de la division |
