@@ -30,6 +30,11 @@ class Calculadora {
   resto(a,b) {
     return a % b;
   }
+
+  logaritmoNatural(numero) {
+    return Math.log(numero);
+  }
+
 }
 
 // Exportar para usar en tests
@@ -52,3 +57,4 @@ console.log('- calc.potencia(base, exponente)');
 console.log('- calc.raizCuadrada(numero)');
 console.log('- calc.porcentaje(a, b)');
 console.log('- calc.resto(a,b)');
+console.log('- calc.logaritmoNatural(numero)');

@@ -20,6 +20,7 @@ function mostrarMenu() {
   console.log('6. Raíz Cuadrada');
   console.log('7. Porcentaje');
   console.log('8. Resto');
+  console.log('9. Logaritmo Natural');
   console.log('0. Salir');
   console.log('=================================');
 }
@@ -68,7 +69,7 @@ function getSimboloOperacion(nombre) {
     'división': '÷',
     'potencia': '^',
     'porcentaje': '%',
-    'resto': '%'
+    'resto': '%',
   };
   return simbolos[nombre] || '';
 }
@@ -137,12 +138,23 @@ async function ejecutarOpcion(opcion) {
       }
       break;
 
-      //operacion resto
     case '8':
       await operacionDosNumeros(
         (a, b) => calc.resto(a, b),
         'resto'
       );
+      break;
+    
+    case '9':
+      const numLog = await pedirNumero('Ingrese el número: ');
+      const resultadoLog = calc.logaritmoNatural(numLog);  
+      if (resultadoLog === undefined) {
+        console.log('\n⚠️  La función logaritmo natural aún no está implementada');
+      } else if (!isFinite(resultadoLog) || isNaN(resultadoLog)) {
+        console.log('\n⚠️  Error: Operación inválida (logaritmo de número no positivo)');
+      } else {
+        console.log(`\n✓ Resultado: ln(${numLog}) = ${resultadoLog}`);         
+      }
       break;
     
     case '0':
