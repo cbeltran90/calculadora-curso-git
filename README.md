@@ -54,6 +54,7 @@ Verás un menú como este:
 5. Potencia
 6. Raíz Cuadrada
 7. Porcentaje
+8. Resto
 0. Salir
 =================================
 ```

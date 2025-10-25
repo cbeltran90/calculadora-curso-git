@@ -41,8 +41,8 @@ if (typeof module !== 'undefined' && module.exports) {
 const calc = new Calculadora();
 
 console.log('=== Calculadora Simple ===');
-console.log('Ejemplo de uso:');
-console.log('calc.sumar(5, 3):', calc.sumar(5, 3));
+//console.log('Ejemplo de uso:');
+//console.log('calc.sumar(5, 3):', calc.sumar(5, 3));
 console.log('\nFunciones disponibles:');
 console.log('- calc.sumar(a, b)');
 console.log('- calc.restar(a, b)');
